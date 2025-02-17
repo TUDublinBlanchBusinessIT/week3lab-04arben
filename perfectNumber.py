@@ -14,9 +14,8 @@ def isperfectNumber(n):
     if sum(divisors(n)) == n:
         return True
         return False
-print(isperfectNumber(496))
-if isperfectNumber(496):
-    print("It is a perfect number")
+print(isperfectNumber(8128))
+if (isperfectNumber(8128)): print("8128 is a perfect number")
     
 #define the function header called perfectNumber expecting one argument
 
@@ -33,5 +32,5 @@ if isperfectNumber(496):
 
 
 #uncomment the following line to test the perfectNumber function it should return True
-#if (perfectNumber(8128)): print("8128 is a perfect number")
+
 
