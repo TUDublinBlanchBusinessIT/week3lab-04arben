@@ -1,11 +1,30 @@
-#Add your name here
-#Add the date here
-#Add the filename here
+#Arben_Ozcikrikci
+#17/02/2025
+#divisors.py
 
 #Add a function below called divisors(num) which takes one argument of type integer
 #and returns a list of all the divisors(factors) of that that number -
 #A divisor or factor is a number which divides evenly leaving no remainder
+def divisors(n):
+    my_list = []
+    for i in range(1, n):
+        if n% i ==0:
+            my_list.append(i)
+    return my_list
 
+    
+    
+
+def main():
+    print(divisors(30))
+
+main()
+
+
+
+
+
+    
 #define the funciton header called divisors expecting one argument
 
     #set up an empty list to hold your result
