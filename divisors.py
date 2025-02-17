@@ -5,6 +5,7 @@
 #Add a function below called divisors(num) which takes one argument of type integer
 #and returns a list of all the divisors(factors) of that that number -
 #A divisor or factor is a number which divides evenly leaving no remainder
+
 def divisors(n):
     my_list = []
     for i in range(1, n):
@@ -12,13 +13,9 @@ def divisors(n):
             my_list.append(i)
     return my_list
 
-    
-    
 
-def main():
-    print(divisors(30))
 
-main()
+print(divisors(30))
 
 
 
